@@ -20,20 +20,6 @@
                ReferencedContainer = "container:GLibrary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABC2082C193922CF00128F18"
-               BuildableName = "SettingsTests.xctest"
-               BlueprintName = "SettingsTests"
-               ReferencedContainer = "container:GLibrary.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -46,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABC208011939223900128F18"
-               BuildableName = "GLibraryTests.xctest"
-               BlueprintName = "GLibraryTests"
+               BlueprintIdentifier = "ABC2082C193922CF00128F18"
+               BuildableName = "SettingsTests.xctest"
+               BlueprintName = "SettingsTests"
                ReferencedContainer = "container:GLibrary.xcodeproj">
             </BuildableReference>
          </TestableReference>

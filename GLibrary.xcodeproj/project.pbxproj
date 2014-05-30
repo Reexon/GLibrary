@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC207F61939223900128F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
+		ABC207FB1939223900128F18 /* GLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC207FA1939223900128F18 /* GLibrary.h */; };
+		ABC207FD1939223900128F18 /* GLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC207FC1939223900128F18 /* GLibrary.m */; };
+		ABC208041939223900128F18 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC208031939223900128F18 /* XCTest.framework */; };
+		ABC208051939223900128F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
+		ABC208071939223900128F18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC208061939223900128F18 /* UIKit.framework */; };
+		ABC2080A1939223900128F18 /* libGLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F21939223900128F18 /* libGLibrary.a */; };
+		ABC208101939223900128F18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABC2080E1939223900128F18 /* InfoPlist.strings */; };
+		ABC208121939223900128F18 /* GLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC208111939223900128F18 /* GLibraryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC208081939223900128F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC207EA1939223900128F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC207F11939223900128F18;
+			remoteInfo = GLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABC207F01939223900128F18 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				ABC207FB1939223900128F18 /* GLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABC207F21939223900128F18 /* libGLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC207F51939223900128F18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABC207F91939223900128F18 /* GLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		ABC207FA1939223900128F18 /* GLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLibrary.h; sourceTree = "<group>"; };
+		ABC207FC1939223900128F18 /* GLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLibrary.m; sourceTree = "<group>"; };
+		ABC208021939223900128F18 /* GLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC208031939223900128F18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABC208061939223900128F18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ABC2080D1939223900128F18 /* GLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLibraryTests-Info.plist"; sourceTree = "<group>"; };
+		ABC2080F1939223900128F18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ABC208111939223900128F18 /* GLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLibraryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC207EF1939223900128F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC207F61939223900128F18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC207FF1939223900128F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC208041939223900128F18 /* XCTest.framework in Frameworks */,
+				ABC208071939223900128F18 /* UIKit.framework in Frameworks */,
+				ABC208051939223900128F18 /* Foundation.framework in Frameworks */,
+				ABC2080A1939223900128F18 /* libGLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC207E91939223900128F18 = {
+			isa = PBXGroup;
+			children = (
+				ABC207F71939223900128F18 /* GLibrary */,
+				ABC2080B1939223900128F18 /* GLibraryTests */,
+				ABC207F41939223900128F18 /* Frameworks */,
+				ABC207F31939223900128F18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC207F31939223900128F18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC207F21939223900128F18 /* libGLibrary.a */,
+				ABC208021939223900128F18 /* GLibraryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC207F41939223900128F18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABC207F51939223900128F18 /* Foundation.framework */,
+				ABC208031939223900128F18 /* XCTest.framework */,
+				ABC208061939223900128F18 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABC207F71939223900128F18 /* GLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				ABC207FA1939223900128F18 /* GLibrary.h */,
+				ABC207FC1939223900128F18 /* GLibrary.m */,
+				ABC207F81939223900128F18 /* Supporting Files */,
+			);
+			path = GLibrary;
+			sourceTree = "<group>";
+		};
+		ABC207F81939223900128F18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC207F91939223900128F18 /* GLibrary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABC2080B1939223900128F18 /* GLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC208111939223900128F18 /* GLibraryTests.m */,
+				ABC2080C1939223900128F18 /* Supporting Files */,
+			);
+			path = GLibraryTests;
+			sourceTree = "<group>";
+		};
+		ABC2080C1939223900128F18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC2080D1939223900128F18 /* GLibraryTests-Info.plist */,
+				ABC2080E1939223900128F18 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC207F11939223900128F18 /* GLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC208151939223900128F18 /* Build configuration list for PBXNativeTarget "GLibrary" */;
+			buildPhases = (
+				ABC207EE1939223900128F18 /* Sources */,
+				ABC207EF1939223900128F18 /* Frameworks */,
+				ABC207F01939223900128F18 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLibrary;
+			productName = GLibrary;
+			productReference = ABC207F21939223900128F18 /* libGLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ABC208011939223900128F18 /* GLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC208181939223900128F18 /* Build configuration list for PBXNativeTarget "GLibraryTests" */;
+			buildPhases = (
+				ABC207FE1939223900128F18 /* Sources */,
+				ABC207FF1939223900128F18 /* Frameworks */,
+				ABC208001939223900128F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC208091939223900128F18 /* PBXTargetDependency */,
+			);
+			name = GLibraryTests;
+			productName = GLibraryTests;
+			productReference = ABC208021939223900128F18 /* GLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC207EA1939223900128F18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = ABC207ED1939223900128F18 /* Build configuration list for PBXProject "GLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABC207E91939223900128F18;
+			productRefGroup = ABC207F31939223900128F18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC207F11939223900128F18 /* GLibrary */,
+				ABC208011939223900128F18 /* GLibraryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC208001939223900128F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC208101939223900128F18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC207EE1939223900128F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC207FD1939223900128F18 /* GLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC207FE1939223900128F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC208121939223900128F18 /* GLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC208091939223900128F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC207F11939223900128F18 /* GLibrary */;
+			targetProxy = ABC208081939223900128F18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABC2080E1939223900128F18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC2080F1939223900128F18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC208131939223900128F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABC208141939223900128F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC208161939223900128F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLibrary/GLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ABC208171939223900128F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GLibrary.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLibrary/GLibrary-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ABC208191939223900128F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLibrary/GLibrary-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GLibraryTests/GLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABC2081A1939223900128F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLibrary/GLibrary-Prefix.pch";
+				INFOPLIST_FILE = "GLibraryTests/GLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC207ED1939223900128F18 /* Build configuration list for PBXProject "GLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC208131939223900128F18 /* Debug */,
+				ABC208141939223900128F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC208151939223900128F18 /* Build configuration list for PBXNativeTarget "GLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC208161939223900128F18 /* Debug */,
+				ABC208171939223900128F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABC208181939223900128F18 /* Build configuration list for PBXNativeTarget "GLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC208191939223900128F18 /* Debug */,
+				ABC2081A1939223900128F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC207EA1939223900128F18 /* Project object */;
+}

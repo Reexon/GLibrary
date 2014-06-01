@@ -21,6 +21,18 @@
 		18920688193B8CC900C5811E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53FE171939E531008A4EDD /* Reachability.m */; };
 		18920689193B8CE100C5811E /* SettingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2083A193922CF00128F18 /* SettingsTests.m */; };
 		1892068A193B8CE100C5811E /* ConnectivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB362A281939B6A500A05E3A /* ConnectivityTests.m */; };
+		18920690193B8D6400C5811E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
+		18920695193B8D6400C5811E /* Array.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18920694193B8D6400C5811E /* Array.h */; };
+		18920697193B8D6400C5811E /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 18920696193B8D6400C5811E /* Array.m */; };
+		1892069D193B8D6400C5811E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC208031939223900128F18 /* XCTest.framework */; };
+		1892069E193B8D6400C5811E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
+		1892069F193B8D6400C5811E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC208061939223900128F18 /* UIKit.framework */; };
+		189206A2193B8D6400C5811E /* libArray.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1892068F193B8D6400C5811E /* libArray.a */; };
+		189206A8193B8D6400C5811E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 189206A6193B8D6400C5811E /* InfoPlist.strings */; };
+		189206AA193B8D6400C5811E /* ArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206A9193B8D6400C5811E /* ArrayTests.m */; };
+		189206B5193B8DC800C5811E /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206B2193B8DC800C5811E /* NSMutableArray+Shuffling.m */; };
+		189206B6193B8DC800C5811E /* NSArray+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206B4193B8DC800C5811E /* NSArray+Utility.m */; };
+		189206B9193B8DEA00C5811E /* TestNSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206B8193B8DEA00C5811E /* TestNSMutableArray+Shuffling.m */; };
 		AB362A0F1939B6A400A05E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
 		AB362A141939B6A500A05E3A /* Connectivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB362A131939B6A500A05E3A /* Connectivity.h */; };
 		AB362A161939B6A500A05E3A /* Connectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = AB362A151939B6A500A05E3A /* Connectivity.m */; };
@@ -52,6 +64,13 @@
 			remoteGlobalIDString = 18920663193B8CA000C5811E;
 			remoteInfo = GLibrary;
 		};
+		189206A0193B8D6400C5811E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC207EA1939223900128F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1892068E193B8D6400C5811E;
+			remoteInfo = Array;
+		};
 		AB362A1F1939B6A500A05E3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABC207EA1939223900128F18 /* Project object */;
@@ -76,6 +95,16 @@
 			dstSubfolderSpec = 16;
 			files = (
 				1892066A193B8CA000C5811E /* GLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1892068D193B8D6400C5811E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				18920695193B8D6400C5811E /* Array.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +140,19 @@
 		1892067A193B8CA100C5811E /* GLibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLibraryTests-Info.plist"; sourceTree = "<group>"; };
 		1892067C193B8CA100C5811E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1892067E193B8CA100C5811E /* GLibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLibraryTests.m; sourceTree = "<group>"; };
+		1892068F193B8D6400C5811E /* libArray.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libArray.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18920693193B8D6400C5811E /* Array-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Array-Prefix.pch"; sourceTree = "<group>"; };
+		18920694193B8D6400C5811E /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		18920696193B8D6400C5811E /* Array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Array.m; sourceTree = "<group>"; };
+		1892069C193B8D6400C5811E /* ArrayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189206A5193B8D6400C5811E /* ArrayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArrayTests-Info.plist"; sourceTree = "<group>"; };
+		189206A7193B8D6400C5811E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		189206A9193B8D6400C5811E /* ArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayTests.m; sourceTree = "<group>"; };
+		189206B1193B8DC800C5811E /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		189206B2193B8DC800C5811E /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		189206B3193B8DC800C5811E /* NSArray+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utility.h"; sourceTree = "<group>"; };
+		189206B4193B8DC800C5811E /* NSArray+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utility.m"; sourceTree = "<group>"; };
+		189206B8193B8DEA00C5811E /* TestNSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TestNSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
 		AB362A0E1939B6A400A05E3A /* libConnectivity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libConnectivity.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB362A121939B6A400A05E3A /* Connectivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Connectivity-Prefix.pch"; sourceTree = "<group>"; };
 		AB362A131939B6A500A05E3A /* Connectivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connectivity.h; sourceTree = "<group>"; };
@@ -152,6 +194,25 @@
 				18920674193B8CA000C5811E /* UIKit.framework in Frameworks */,
 				18920673193B8CA000C5811E /* Foundation.framework in Frameworks */,
 				18920677193B8CA000C5811E /* libGLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1892068C193B8D6400C5811E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18920690193B8D6400C5811E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18920699193B8D6400C5811E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1892069D193B8D6400C5811E /* XCTest.framework in Frameworks */,
+				1892069F193B8D6400C5811E /* UIKit.framework in Frameworks */,
+				1892069E193B8D6400C5811E /* Foundation.framework in Frameworks */,
+				189206A2193B8D6400C5811E /* libArray.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +264,7 @@
 				18920669193B8CA000C5811E /* GLibrary.h */,
 				1892066B193B8CA000C5811E /* GLibrary.m */,
 				18920667193B8CA000C5811E /* Supporting Files */,
+				18920678193B8CA000C5811E /* GLibraryTests */,
 			);
 			path = GLibrary;
 			sourceTree = "<group>";
@@ -222,7 +284,7 @@
 				18920679193B8CA100C5811E /* Supporting Files */,
 			);
 			path = GLibraryTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		18920679193B8CA100C5811E /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -231,6 +293,56 @@
 				1892067B193B8CA100C5811E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18920691193B8D6400C5811E /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				189206B7193B8DD100C5811E /* Categories */,
+				18920694193B8D6400C5811E /* Array.h */,
+				18920696193B8D6400C5811E /* Array.m */,
+				18920692193B8D6400C5811E /* Supporting Files */,
+				189206A3193B8D6400C5811E /* ArrayTests */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		18920692193B8D6400C5811E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18920693193B8D6400C5811E /* Array-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189206A3193B8D6400C5811E /* ArrayTests */ = {
+			isa = PBXGroup;
+			children = (
+				189206A9193B8D6400C5811E /* ArrayTests.m */,
+				189206B8193B8DEA00C5811E /* TestNSMutableArray+Shuffling.m */,
+				189206A4193B8D6400C5811E /* Supporting Files */,
+			);
+			path = ArrayTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		189206A4193B8D6400C5811E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189206A5193B8D6400C5811E /* ArrayTests-Info.plist */,
+				189206A6193B8D6400C5811E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189206B7193B8DD100C5811E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				189206B1193B8DC800C5811E /* NSMutableArray+Shuffling.h */,
+				189206B2193B8DC800C5811E /* NSMutableArray+Shuffling.m */,
+				189206B3193B8DC800C5811E /* NSArray+Utility.h */,
+				189206B4193B8DC800C5811E /* NSArray+Utility.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 		AB362A101939B6A400A05E3A /* Connectivity */ = {
@@ -275,10 +387,10 @@
 		ABC207E91939223900128F18 = {
 			isa = PBXGroup;
 			children = (
-				ABC20822193922CF00128F18 /* Settings */,
+				18920691193B8D6400C5811E /* Array */,
 				AB362A101939B6A400A05E3A /* Connectivity */,
+				ABC20822193922CF00128F18 /* Settings */,
 				18920666193B8CA000C5811E /* GLibrary */,
-				18920678193B8CA000C5811E /* GLibraryTests */,
 				ABC207F41939223900128F18 /* Frameworks */,
 				ABC207F31939223900128F18 /* Products */,
 			);
@@ -293,6 +405,8 @@
 				AB362A1B1939B6A500A05E3A /* ConnectivityTests.xctest */,
 				18920664193B8CA000C5811E /* libGLibrary.a */,
 				18920671193B8CA000C5811E /* GLibraryTests.xctest */,
+				1892068F193B8D6400C5811E /* libArray.a */,
+				1892069C193B8D6400C5811E /* ArrayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -381,6 +495,41 @@
 			name = GLibraryTests;
 			productName = GLibraryTests;
 			productReference = 18920671193B8CA000C5811E /* GLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1892068E193B8D6400C5811E /* Array */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189206AB193B8D6400C5811E /* Build configuration list for PBXNativeTarget "Array" */;
+			buildPhases = (
+				1892068B193B8D6400C5811E /* Sources */,
+				1892068C193B8D6400C5811E /* Frameworks */,
+				1892068D193B8D6400C5811E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Array;
+			productName = Array;
+			productReference = 1892068F193B8D6400C5811E /* libArray.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1892069B193B8D6400C5811E /* ArrayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189206AE193B8D6400C5811E /* Build configuration list for PBXNativeTarget "ArrayTests" */;
+			buildPhases = (
+				18920698193B8D6400C5811E /* Sources */,
+				18920699193B8D6400C5811E /* Frameworks */,
+				1892069A193B8D6400C5811E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189206A1193B8D6400C5811E /* PBXTargetDependency */,
+			);
+			name = ArrayTests;
+			productName = ArrayTests;
+			productReference = 1892069C193B8D6400C5811E /* ArrayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		AB362A0D1939B6A400A05E3A /* Connectivity */ = {
@@ -479,6 +628,8 @@
 				AB362A1A1939B6A500A05E3A /* ConnectivityTests */,
 				18920663193B8CA000C5811E /* GLibrary */,
 				18920670193B8CA000C5811E /* GLibraryTests */,
+				1892068E193B8D6400C5811E /* Array */,
+				1892069B193B8D6400C5811E /* ArrayTests */,
 			);
 		};
 /* End PBXProject section */
@@ -489,6 +640,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1892067D193B8CA100C5811E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1892069A193B8D6400C5811E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189206A8193B8D6400C5811E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +688,25 @@
 				18920689193B8CE100C5811E /* SettingsTests.m in Sources */,
 				1892068A193B8CE100C5811E /* ConnectivityTests.m in Sources */,
 				1892067F193B8CA100C5811E /* GLibraryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1892068B193B8D6400C5811E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189206B6193B8DC800C5811E /* NSArray+Utility.m in Sources */,
+				189206B5193B8DC800C5811E /* NSMutableArray+Shuffling.m in Sources */,
+				18920697193B8D6400C5811E /* Array.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18920698193B8D6400C5811E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189206B9193B8DEA00C5811E /* TestNSMutableArray+Shuffling.m in Sources */,
+				189206AA193B8D6400C5811E /* ArrayTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +751,11 @@
 			target = 18920663193B8CA000C5811E /* GLibrary */;
 			targetProxy = 18920675193B8CA000C5811E /* PBXContainerItemProxy */;
 		};
+		189206A1193B8D6400C5811E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1892068E193B8D6400C5811E /* Array */;
+			targetProxy = 189206A0193B8D6400C5811E /* PBXContainerItemProxy */;
+		};
 		AB362A201939B6A500A05E3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AB362A0D1939B6A400A05E3A /* Connectivity */;
@@ -590,6 +773,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				1892067C193B8CA100C5811E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		189206A6193B8D6400C5811E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189206A7193B8D6400C5811E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -672,6 +863,70 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GLibrary/GLibrary-Prefix.pch";
 				INFOPLIST_FILE = "GLibraryTests/GLibraryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		189206AC193B8D6400C5811E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Array.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Array/Array-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		189206AD193B8D6400C5811E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Array.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Array/Array-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		189206AF193B8D6400C5811E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Array/Array-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ArrayTests/ArrayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		189206B0193B8D6400C5811E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Array/Array-Prefix.pch";
+				INFOPLIST_FILE = "ArrayTests/ArrayTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -892,6 +1147,22 @@
 			buildConfigurations = (
 				18920682193B8CA100C5811E /* Debug */,
 				18920683193B8CA100C5811E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189206AB193B8D6400C5811E /* Build configuration list for PBXNativeTarget "Array" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189206AC193B8D6400C5811E /* Debug */,
+				189206AD193B8D6400C5811E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189206AE193B8D6400C5811E /* Build configuration list for PBXNativeTarget "ArrayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189206AF193B8D6400C5811E /* Debug */,
+				189206B0193B8D6400C5811E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

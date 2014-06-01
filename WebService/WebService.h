@@ -16,11 +16,7 @@
 
 - (id)initWithURL:(NSURL *)url andXML:(NSString *)xmlFile;
 
-/*!
- In caso di successo, restituirà la risposta del WS.
- In caso contrario (di qualche problema), visualizzerà l'errore nei Log 
- e ritornerà una stringa vuota @""
- */
-- (NSString *) startRequest;
+
+- (void) start;
 
 @end

@@ -33,6 +33,9 @@
 		189206B5193B8DC800C5811E /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206B2193B8DC800C5811E /* NSMutableArray+Shuffling.m */; };
 		189206B6193B8DC800C5811E /* NSArray+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206B4193B8DC800C5811E /* NSArray+Utility.m */; };
 		189206B9193B8DEA00C5811E /* TestNSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206B8193B8DEA00C5811E /* TestNSMutableArray+Shuffling.m */; };
+		189206BA193B8E5D00C5811E /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206B2193B8DC800C5811E /* NSMutableArray+Shuffling.m */; };
+		189206BB193B8E5D00C5811E /* NSArray+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206B4193B8DC800C5811E /* NSArray+Utility.m */; };
+		189206BC193B8E5D00C5811E /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 18920696193B8D6400C5811E /* Array.m */; };
 		AB362A0F1939B6A400A05E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
 		AB362A141939B6A500A05E3A /* Connectivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB362A131939B6A500A05E3A /* Connectivity.h */; };
 		AB362A161939B6A500A05E3A /* Connectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = AB362A151939B6A500A05E3A /* Connectivity.m */; };
@@ -674,6 +677,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189206BA193B8E5D00C5811E /* NSMutableArray+Shuffling.m in Sources */,
+				189206BB193B8E5D00C5811E /* NSArray+Utility.m in Sources */,
+				189206BC193B8E5D00C5811E /* Array.m in Sources */,
 				18920688193B8CC900C5811E /* Reachability.m in Sources */,
 				18920687193B8CB500C5811E /* Connectivity.m in Sources */,
 				18920686193B8CAE00C5811E /* Settings.m in Sources */,

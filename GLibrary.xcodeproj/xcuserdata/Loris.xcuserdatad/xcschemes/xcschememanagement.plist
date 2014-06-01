@@ -19,11 +19,6 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>WebService.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -53,16 +48,6 @@
 			<true/>
 		</dict>
 		<key>ABC2082C193922CF00128F18</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>ABD87573193B34A30050E390</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>ABD87580193B34A30050E390</key>
 		<dict>
 			<key>primary</key>
 			<true/>

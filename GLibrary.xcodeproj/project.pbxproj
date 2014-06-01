@@ -1159,10 +1159,8 @@
 				ABC2082C193922CF00128F18 /* SettingsTests */,
 				AB362A0D1939B6A400A05E3A /* Connectivity */,
 				AB362A1A1939B6A500A05E3A /* ConnectivityTests */,
-<<<<<<< HEAD
 				ABD87573193B34A30050E390 /* WebService */,
 				ABD87580193B34A30050E390 /* WebServiceTests */,
-=======
 				18920663193B8CA000C5811E /* GLibrary */,
 				18920670193B8CA000C5811E /* GLibraryTests */,
 				1892068E193B8D6400C5811E /* Array */,
@@ -1173,7 +1171,6 @@
 				189206F3193B902600C5811E /* DataStructureTests */,
 				18920712193B90AA00C5811E /* Date */,
 				1892071F193B90AA00C5811E /* DateTests */,
->>>>>>> FETCH_HEAD
 			);
 		};
 /* End PBXProject section */

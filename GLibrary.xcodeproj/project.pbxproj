@@ -36,6 +36,15 @@
 		189206BA193B8E5D00C5811E /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206B2193B8DC800C5811E /* NSMutableArray+Shuffling.m */; };
 		189206BB193B8E5D00C5811E /* NSArray+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206B4193B8DC800C5811E /* NSArray+Utility.m */; };
 		189206BC193B8E5D00C5811E /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = 18920696193B8D6400C5811E /* Array.m */; };
+		189206C2193B8EBD00C5811E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
+		189206C7193B8EBD00C5811E /* Sort.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 189206C6193B8EBD00C5811E /* Sort.h */; };
+		189206C9193B8EBD00C5811E /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206C8193B8EBD00C5811E /* Sort.m */; };
+		189206CF193B8EBD00C5811E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC208031939223900128F18 /* XCTest.framework */; };
+		189206D0193B8EBD00C5811E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
+		189206D1193B8EBD00C5811E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC208061939223900128F18 /* UIKit.framework */; };
+		189206D4193B8EBD00C5811E /* libSort.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 189206C1193B8EBD00C5811E /* libSort.a */; };
+		189206DA193B8EBD00C5811E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 189206D8193B8EBD00C5811E /* InfoPlist.strings */; };
+		189206DC193B8EBD00C5811E /* SortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189206DB193B8EBD00C5811E /* SortTests.m */; };
 		AB362A0F1939B6A400A05E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
 		AB362A141939B6A500A05E3A /* Connectivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB362A131939B6A500A05E3A /* Connectivity.h */; };
 		AB362A161939B6A500A05E3A /* Connectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = AB362A151939B6A500A05E3A /* Connectivity.m */; };
@@ -74,6 +83,13 @@
 			remoteGlobalIDString = 1892068E193B8D6400C5811E;
 			remoteInfo = Array;
 		};
+		189206D2193B8EBD00C5811E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC207EA1939223900128F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189206C0193B8EBD00C5811E;
+			remoteInfo = Sort;
+		};
 		AB362A1F1939B6A500A05E3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABC207EA1939223900128F18 /* Project object */;
@@ -108,6 +124,16 @@
 			dstSubfolderSpec = 16;
 			files = (
 				18920695193B8D6400C5811E /* Array.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189206BF193B8EBD00C5811E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				189206C7193B8EBD00C5811E /* Sort.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +182,14 @@
 		189206B3193B8DC800C5811E /* NSArray+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utility.h"; sourceTree = "<group>"; };
 		189206B4193B8DC800C5811E /* NSArray+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utility.m"; sourceTree = "<group>"; };
 		189206B8193B8DEA00C5811E /* TestNSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TestNSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		189206C1193B8EBD00C5811E /* libSort.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSort.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		189206C5193B8EBD00C5811E /* Sort-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sort-Prefix.pch"; sourceTree = "<group>"; };
+		189206C6193B8EBD00C5811E /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		189206C8193B8EBD00C5811E /* Sort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
+		189206CE193B8EBD00C5811E /* SortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189206D7193B8EBD00C5811E /* SortTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SortTests-Info.plist"; sourceTree = "<group>"; };
+		189206D9193B8EBD00C5811E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		189206DB193B8EBD00C5811E /* SortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortTests.m; sourceTree = "<group>"; };
 		AB362A0E1939B6A400A05E3A /* libConnectivity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libConnectivity.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB362A121939B6A400A05E3A /* Connectivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Connectivity-Prefix.pch"; sourceTree = "<group>"; };
 		AB362A131939B6A500A05E3A /* Connectivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connectivity.h; sourceTree = "<group>"; };
@@ -216,6 +250,25 @@
 				1892069F193B8D6400C5811E /* UIKit.framework in Frameworks */,
 				1892069E193B8D6400C5811E /* Foundation.framework in Frameworks */,
 				189206A2193B8D6400C5811E /* libArray.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189206BE193B8EBD00C5811E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189206C2193B8EBD00C5811E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189206CB193B8EBD00C5811E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189206CF193B8EBD00C5811E /* XCTest.framework in Frameworks */,
+				189206D1193B8EBD00C5811E /* UIKit.framework in Frameworks */,
+				189206D0193B8EBD00C5811E /* Foundation.framework in Frameworks */,
+				189206D4193B8EBD00C5811E /* libSort.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +401,43 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
+		189206C3193B8EBD00C5811E /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				189206C6193B8EBD00C5811E /* Sort.h */,
+				189206C8193B8EBD00C5811E /* Sort.m */,
+				189206D5193B8EBD00C5811E /* SortTests */,
+				189206C4193B8EBD00C5811E /* Supporting Files */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		189206C4193B8EBD00C5811E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189206C5193B8EBD00C5811E /* Sort-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189206D5193B8EBD00C5811E /* SortTests */ = {
+			isa = PBXGroup;
+			children = (
+				189206DB193B8EBD00C5811E /* SortTests.m */,
+				189206D6193B8EBD00C5811E /* Supporting Files */,
+			);
+			path = SortTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		189206D6193B8EBD00C5811E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189206D7193B8EBD00C5811E /* SortTests-Info.plist */,
+				189206D8193B8EBD00C5811E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		AB362A101939B6A400A05E3A /* Connectivity */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,8 +482,9 @@
 			children = (
 				18920691193B8D6400C5811E /* Array */,
 				AB362A101939B6A400A05E3A /* Connectivity */,
-				ABC20822193922CF00128F18 /* Settings */,
 				18920666193B8CA000C5811E /* GLibrary */,
+				ABC20822193922CF00128F18 /* Settings */,
+				189206C3193B8EBD00C5811E /* Sort */,
 				ABC207F41939223900128F18 /* Frameworks */,
 				ABC207F31939223900128F18 /* Products */,
 			);
@@ -410,6 +501,8 @@
 				18920671193B8CA000C5811E /* GLibraryTests.xctest */,
 				1892068F193B8D6400C5811E /* libArray.a */,
 				1892069C193B8D6400C5811E /* ArrayTests.xctest */,
+				189206C1193B8EBD00C5811E /* libSort.a */,
+				189206CE193B8EBD00C5811E /* SortTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -535,6 +628,41 @@
 			productReference = 1892069C193B8D6400C5811E /* ArrayTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		189206C0193B8EBD00C5811E /* Sort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189206DD193B8EBD00C5811E /* Build configuration list for PBXNativeTarget "Sort" */;
+			buildPhases = (
+				189206BD193B8EBD00C5811E /* Sources */,
+				189206BE193B8EBD00C5811E /* Frameworks */,
+				189206BF193B8EBD00C5811E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sort;
+			productName = Sort;
+			productReference = 189206C1193B8EBD00C5811E /* libSort.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		189206CD193B8EBD00C5811E /* SortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189206E0193B8EBD00C5811E /* Build configuration list for PBXNativeTarget "SortTests" */;
+			buildPhases = (
+				189206CA193B8EBD00C5811E /* Sources */,
+				189206CB193B8EBD00C5811E /* Frameworks */,
+				189206CC193B8EBD00C5811E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189206D3193B8EBD00C5811E /* PBXTargetDependency */,
+			);
+			name = SortTests;
+			productName = SortTests;
+			productReference = 189206CE193B8EBD00C5811E /* SortTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AB362A0D1939B6A400A05E3A /* Connectivity */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB362A2A1939B6A500A05E3A /* Build configuration list for PBXNativeTarget "Connectivity" */;
@@ -633,6 +761,8 @@
 				18920670193B8CA000C5811E /* GLibraryTests */,
 				1892068E193B8D6400C5811E /* Array */,
 				1892069B193B8D6400C5811E /* ArrayTests */,
+				189206C0193B8EBD00C5811E /* Sort */,
+				189206CD193B8EBD00C5811E /* SortTests */,
 			);
 		};
 /* End PBXProject section */
@@ -651,6 +781,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				189206A8193B8D6400C5811E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189206CC193B8EBD00C5811E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189206DA193B8EBD00C5811E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -716,6 +854,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		189206BD193B8EBD00C5811E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189206C9193B8EBD00C5811E /* Sort.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189206CA193B8EBD00C5811E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189206DC193B8EBD00C5811E /* SortTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB362A0A1939B6A400A05E3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -762,6 +916,11 @@
 			target = 1892068E193B8D6400C5811E /* Array */;
 			targetProxy = 189206A0193B8D6400C5811E /* PBXContainerItemProxy */;
 		};
+		189206D3193B8EBD00C5811E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189206C0193B8EBD00C5811E /* Sort */;
+			targetProxy = 189206D2193B8EBD00C5811E /* PBXContainerItemProxy */;
+		};
 		AB362A201939B6A500A05E3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AB362A0D1939B6A400A05E3A /* Connectivity */;
@@ -787,6 +946,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				189206A7193B8D6400C5811E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		189206D8193B8EBD00C5811E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189206D9193B8EBD00C5811E /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -933,6 +1100,70 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Array/Array-Prefix.pch";
 				INFOPLIST_FILE = "ArrayTests/ArrayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		189206DE193B8EBD00C5811E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Sort.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sort/Sort-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		189206DF193B8EBD00C5811E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Sort.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sort/Sort-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		189206E1193B8EBD00C5811E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sort/Sort-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SortTests/SortTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		189206E2193B8EBD00C5811E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sort/Sort-Prefix.pch";
+				INFOPLIST_FILE = "SortTests/SortTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1169,6 +1400,22 @@
 			buildConfigurations = (
 				189206AF193B8D6400C5811E /* Debug */,
 				189206B0193B8D6400C5811E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189206DD193B8EBD00C5811E /* Build configuration list for PBXNativeTarget "Sort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189206DE193B8EBD00C5811E /* Debug */,
+				189206DF193B8EBD00C5811E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189206E0193B8EBD00C5811E /* Build configuration list for PBXNativeTarget "SortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189206E1193B8EBD00C5811E /* Debug */,
+				189206E2193B8EBD00C5811E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

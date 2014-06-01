@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB362A0F1939B6A400A05E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
+		AB362A141939B6A500A05E3A /* Connectivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB362A131939B6A500A05E3A /* Connectivity.h */; };
+		AB362A161939B6A500A05E3A /* Connectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = AB362A151939B6A500A05E3A /* Connectivity.m */; };
+		AB362A1C1939B6A500A05E3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC208031939223900128F18 /* XCTest.framework */; };
+		AB362A1D1939B6A500A05E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
+		AB362A1E1939B6A500A05E3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC208061939223900128F18 /* UIKit.framework */; };
+		AB362A211939B6A500A05E3A /* libConnectivity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB362A0E1939B6A400A05E3A /* libConnectivity.a */; };
+		AB362A271939B6A500A05E3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB362A251939B6A500A05E3A /* InfoPlist.strings */; };
+		AB362A291939B6A500A05E3A /* ConnectivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB362A281939B6A500A05E3A /* ConnectivityTests.m */; };
+		AB362A321939BEB200A05E3A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB362A311939BEB200A05E3A /* SystemConfiguration.framework */; };
+		AB53FE181939E531008A4EDD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AB53FE171939E531008A4EDD /* Reachability.m */; };
+		AB53FE191939E99B008A4EDD /* Reachability.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB53FE161939E531008A4EDD /* Reachability.h */; };
 		ABC20821193922CF00128F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
 		ABC20826193922CF00128F18 /* Settings.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABC20825193922CF00128F18 /* Settings.h */; };
 		ABC20828193922CF00128F18 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC20827193922CF00128F18 /* Settings.m */; };
@@ -19,6 +31,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AB362A1F1939B6A500A05E3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC207EA1939223900128F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB362A0D1939B6A400A05E3A;
+			remoteInfo = Connectivity;
+		};
 		ABC20831193922CF00128F18 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABC207EA1939223900128F18 /* Project object */;
@@ -29,6 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		AB362A0C1939B6A400A05E3A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				AB53FE191939E99B008A4EDD /* Reachability.h in CopyFiles */,
+				AB362A141939B6A500A05E3A /* Connectivity.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABC2081E193922CF00128F18 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,6 +72,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB362A0E1939B6A400A05E3A /* libConnectivity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libConnectivity.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB362A121939B6A400A05E3A /* Connectivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Connectivity-Prefix.pch"; sourceTree = "<group>"; };
+		AB362A131939B6A500A05E3A /* Connectivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connectivity.h; sourceTree = "<group>"; };
+		AB362A151939B6A500A05E3A /* Connectivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Connectivity.m; sourceTree = "<group>"; };
+		AB362A1B1939B6A500A05E3A /* ConnectivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB362A241939B6A500A05E3A /* ConnectivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConnectivityTests-Info.plist"; sourceTree = "<group>"; };
+		AB362A261939B6A500A05E3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB362A281939B6A500A05E3A /* ConnectivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectivityTests.m; sourceTree = "<group>"; };
+		AB362A311939BEB200A05E3A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AB53FE161939E531008A4EDD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		AB53FE171939E531008A4EDD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		ABC207F51939223900128F18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABC208031939223900128F18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		ABC208061939223900128F18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,6 +97,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AB362A0B1939B6A400A05E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB362A321939BEB200A05E3A /* SystemConfiguration.framework in Frameworks */,
+				AB362A0F1939B6A400A05E3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB362A181939B6A500A05E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB362A1C1939B6A500A05E3A /* XCTest.framework in Frameworks */,
+				AB362A1E1939B6A500A05E3A /* UIKit.framework in Frameworks */,
+				AB362A211939B6A500A05E3A /* libConnectivity.a in Frameworks */,
+				AB362A1D1939B6A500A05E3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABC2081D193922CF00128F18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,10 +139,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB362A101939B6A400A05E3A /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				AB362A131939B6A500A05E3A /* Connectivity.h */,
+				AB362A151939B6A500A05E3A /* Connectivity.m */,
+				AB53FE161939E531008A4EDD /* Reachability.h */,
+				AB53FE171939E531008A4EDD /* Reachability.m */,
+				AB362A111939B6A400A05E3A /* Supporting Files */,
+				AB362A221939B6A500A05E3A /* ConnectivityTests */,
+			);
+			path = Connectivity;
+			sourceTree = "<group>";
+		};
+		AB362A111939B6A400A05E3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB362A121939B6A400A05E3A /* Connectivity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB362A221939B6A500A05E3A /* ConnectivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB362A281939B6A500A05E3A /* ConnectivityTests.m */,
+				AB362A231939B6A500A05E3A /* Supporting Files */,
+			);
+			path = ConnectivityTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		AB362A231939B6A500A05E3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB362A241939B6A500A05E3A /* ConnectivityTests-Info.plist */,
+				AB362A251939B6A500A05E3A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		ABC207E91939223900128F18 = {
 			isa = PBXGroup;
 			children = (
 				ABC20822193922CF00128F18 /* Settings */,
+				AB362A101939B6A400A05E3A /* Connectivity */,
 				ABC207F41939223900128F18 /* Frameworks */,
 				ABC207F31939223900128F18 /* Products */,
 			);
@@ -92,6 +193,8 @@
 			children = (
 				ABC20820193922CF00128F18 /* libSettings.a */,
 				ABC2082D193922CF00128F18 /* SettingsTests.xctest */,
+				AB362A0E1939B6A400A05E3A /* libConnectivity.a */,
+				AB362A1B1939B6A500A05E3A /* ConnectivityTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +202,7 @@
 		ABC207F41939223900128F18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AB362A311939BEB200A05E3A /* SystemConfiguration.framework */,
 				ABC207F51939223900128F18 /* Foundation.framework */,
 				ABC208031939223900128F18 /* XCTest.framework */,
 				ABC208061939223900128F18 /* UIKit.framework */,
@@ -146,6 +250,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AB362A0D1939B6A400A05E3A /* Connectivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB362A2A1939B6A500A05E3A /* Build configuration list for PBXNativeTarget "Connectivity" */;
+			buildPhases = (
+				AB362A0A1939B6A400A05E3A /* Sources */,
+				AB362A0B1939B6A400A05E3A /* Frameworks */,
+				AB362A0C1939B6A400A05E3A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Connectivity;
+			productName = Connectivity;
+			productReference = AB362A0E1939B6A400A05E3A /* libConnectivity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AB362A1A1939B6A500A05E3A /* ConnectivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB362A2D1939B6A500A05E3A /* Build configuration list for PBXNativeTarget "ConnectivityTests" */;
+			buildPhases = (
+				AB362A171939B6A500A05E3A /* Sources */,
+				AB362A181939B6A500A05E3A /* Frameworks */,
+				AB362A191939B6A500A05E3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB362A201939B6A500A05E3A /* PBXTargetDependency */,
+			);
+			name = ConnectivityTests;
+			productName = ConnectivityTests;
+			productReference = AB362A1B1939B6A500A05E3A /* ConnectivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		ABC2081F193922CF00128F18 /* Settings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABC2083C193922CF00128F18 /* Build configuration list for PBXNativeTarget "Settings" */;
@@ -203,11 +342,21 @@
 			targets = (
 				ABC2081F193922CF00128F18 /* Settings */,
 				ABC2082C193922CF00128F18 /* SettingsTests */,
+				AB362A0D1939B6A400A05E3A /* Connectivity */,
+				AB362A1A1939B6A500A05E3A /* ConnectivityTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AB362A191939B6A500A05E3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB362A271939B6A500A05E3A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABC2082B193922CF00128F18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,6 +368,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AB362A0A1939B6A400A05E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB53FE181939E531008A4EDD /* Reachability.m in Sources */,
+				AB362A161939B6A500A05E3A /* Connectivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB362A171939B6A500A05E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB362A291939B6A500A05E3A /* ConnectivityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABC2081C193922CF00128F18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,6 +404,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AB362A201939B6A500A05E3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB362A0D1939B6A400A05E3A /* Connectivity */;
+			targetProxy = AB362A1F1939B6A500A05E3A /* PBXContainerItemProxy */;
+		};
 		ABC20832193922CF00128F18 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABC2081F193922CF00128F18 /* Settings */;
@@ -246,6 +417,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		AB362A251939B6A500A05E3A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB362A261939B6A500A05E3A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		ABC20837193922CF00128F18 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -257,6 +436,72 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AB362A2B1939B6A500A05E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Connectivity.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Connectivity/Connectivity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB362A2C1939B6A500A05E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Connectivity.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Connectivity/Connectivity-Prefix.pch";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AB362A2E1939B6A500A05E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Connectivity/Connectivity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ConnectivityTests/ConnectivityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AB362A2F1939B6A500A05E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Connectivity/Connectivity-Prefix.pch";
+				INFOPLIST_FILE = "ConnectivityTests/ConnectivityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		ABC208131939223900128F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,6 +565,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -392,6 +638,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AB362A2A1939B6A500A05E3A /* Build configuration list for PBXNativeTarget "Connectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB362A2B1939B6A500A05E3A /* Debug */,
+				AB362A2C1939B6A500A05E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB362A2D1939B6A500A05E3A /* Build configuration list for PBXNativeTarget "ConnectivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB362A2E1939B6A500A05E3A /* Debug */,
+				AB362A2F1939B6A500A05E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ABC207ED1939223900128F18 /* Build configuration list for PBXProject "GLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -408,6 +672,7 @@
 				ABC2083E193922CF00128F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC2083F193922CF00128F18 /* Build configuration list for PBXNativeTarget "SettingsTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +681,7 @@
 				ABC20841193922CF00128F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

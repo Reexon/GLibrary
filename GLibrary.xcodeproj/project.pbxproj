@@ -733,15 +733,12 @@
 			children = (
 				18920691193B8D6400C5811E /* Array */,
 				AB362A101939B6A400A05E3A /* Connectivity */,
-<<<<<<< HEAD
 				ABD87576193B34A30050E390 /* WebService */,
-=======
 				189206E9193B902600C5811E /* DataStructure */,
 				18920666193B8CA000C5811E /* GLibrary */,
 				ABC20822193922CF00128F18 /* Settings */,
 				189206C3193B8EBD00C5811E /* Sort */,
 				18920715193B90AA00C5811E /* Date */,
->>>>>>> FETCH_HEAD
 				ABC207F41939223900128F18 /* Frameworks */,
 				ABC207F31939223900128F18 /* Products */,
 			);
@@ -754,10 +751,8 @@
 				ABC2082D193922CF00128F18 /* SettingsTests.xctest */,
 				AB362A0E1939B6A400A05E3A /* libConnectivity.a */,
 				AB362A1B1939B6A500A05E3A /* ConnectivityTests.xctest */,
-<<<<<<< HEAD
 				ABD87574193B34A30050E390 /* libWebService.a */,
 				ABD87581193B34A30050E390 /* WebServiceTests.xctest */,
-=======
 				18920664193B8CA000C5811E /* libGLibrary.a */,
 				18920671193B8CA000C5811E /* GLibraryTests.xctest */,
 				1892068F193B8D6400C5811E /* libArray.a */,
@@ -768,7 +763,6 @@
 				189206F4193B902600C5811E /* DataStructureTests.xctest */,
 				18920713193B90AA00C5811E /* libDate.a */,
 				18920720193B90AA00C5811E /* DateTests.xctest */,
->>>>>>> FETCH_HEAD
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1664,7 +1658,6 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
 		ABD8757F193B34A30050E390 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1684,7 +1677,6 @@
 				AB362A161939B6A500A05E3A /* Connectivity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-=======
 		18920704193B902600C5811E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1700,7 +1692,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
->>>>>>> FETCH_HEAD
 		};
 		18920705193B902600C5811E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1750,7 +1741,7 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
+
 		ABD87570193B34A30050E390 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1774,7 +1765,7 @@
 			isa = PBXTargetDependency;
 			target = AB362A0D1939B6A400A05E3A /* Connectivity */;
 			targetProxy = AB362A1F1939B6A500A05E3A /* PBXContainerItemProxy */;
-=======
+
 		18920730193B90AA00C5811E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1790,7 +1781,7 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
->>>>>>> FETCH_HEAD
+
 		};
 		18920731193B90AA00C5811E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1804,7 +1795,7 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
+
 		ABD87586193B34A40050E390 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABD87573193B34A30050E390 /* WebService */;
@@ -1820,7 +1811,7 @@
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
-=======
+
 		18920733193B90AA00C5811E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1840,7 +1831,7 @@
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
->>>>>>> FETCH_HEAD
+
 		};
 		18920734193B90AA00C5811E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1858,7 +1849,7 @@
 			};
 			name = Release;
 		};
-<<<<<<< HEAD
+
 		ABD8758B193B34A40050E390 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1871,7 +1862,7 @@
 
 /* Begin XCBuildConfiguration section */
 =======
->>>>>>> FETCH_HEAD
+
 		AB362A2B1939B6A500A05E3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {

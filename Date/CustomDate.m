@@ -12,7 +12,7 @@
 @implementation CustomDate
 
 /**
- @author Marco.
+ @author Marco Velluto.
  
  @brief Restituisce un array di date di inizio ciclo per l'anno corrente.
  
@@ -27,14 +27,12 @@
  */
 + (NSMutableArray *)datesToYearFromCurrentDate:(NSDate *)date days:(int)days {
     
-    NSArray *array2 = [[NSArray alloc] initWithObjects:@"2", @"3", nil];
-    [array2 shuffle];
     return [CustomDate datesToYearFromCurrentDate:date days:days withYears:1];
     
 }
 
 /**
- @author Marco.
+ @author Marco Velluto.
  
  @brief Restituisce un array di date di inizio mestruazione per l'anno corrente.
  
@@ -64,7 +62,7 @@
 }
 
 /**
- @author Marco.
+ @author Marco Velluto.
  
  @param date Data da analizzare
  @return NSDateComponets DataComponents relativo alla data.
@@ -79,7 +77,7 @@
 }
 
 /**
- @author Marco.
+ @author Marco Velluto.
  
  @param date data da analizare
  @return restituisce il numero del gioro relativo alla data passata.
@@ -92,7 +90,7 @@
 }
 
 /**
- @author Marco.
+ @author Marco Velluto.
  
  @param date data da analizare
  @return restituisce il numero del gioro relativo alla data passata.
@@ -105,7 +103,7 @@
 }
 
 /**
- @author Marco.
+ @author Marco Velluto.
  
  @param date data da analizare
  @return restituisce il numero del gioro relativo alla data passata.
@@ -118,7 +116,7 @@
 }
 
 /**
- @author Marco.
+ @author Marco Velluto.
 
  @brief Calcola la data di inizio del ciclo.
  

@@ -2,8 +2,8 @@
 //  TestCustomDate.m
 //  IlMioCiclo
 //
-//  Created by Marco Velluto on 18/05/14.
-//  Copyright (c) 2014 Marco Velluto. All rights reserved.
+//  Created by Marco Velluto  Velluto on 18/05/14.
+//  Copyright (c) 2014 Marco Velluto  Velluto. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

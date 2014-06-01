@@ -2,8 +2,8 @@
 //  NSMutableArray+Shuffling.m
 //  Library
 //
-//  Created by Marco Velluto on 23/05/14.
-//  Copyright (c) 2014 Marco Velluto. All rights reserved.
+//  Created by Marco Velluto  Velluto on 23/05/14.
+//  Copyright (c) 2014 Marco Velluto  Velluto. All rights reserved.
 //
 
 #import "NSMutableArray+Shuffling.h"
@@ -11,7 +11,7 @@
 @implementation NSMutableArray (Shuffling)
 
 /**
- @author Marco.
+ @author Marco Velluto .
  
  @brief Shuffle array elements.
  @attention The array must be initialized.
@@ -28,7 +28,7 @@
 }
 
 /**
- @author Marco.
+ @author Marco Velluto .
  
  @brief Insert objects NSNumber of type Int in the Array until it reaches the size determined.
  

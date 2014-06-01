@@ -2,7 +2,7 @@
 //  MaxHeap.m
 //  Library
 //
-//  Created by Marco Velluto on 20/05/14.
+//  Created by Marco Vellutoon 20/05/14.
 //  Copyright (c) 2014 Marco Velluto. All rights reserved.
 //
 

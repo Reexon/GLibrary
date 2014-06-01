@@ -2,8 +2,8 @@
 //  NSArray+Utility.m
 //  Library
 //
-//  Created by Marco Velluto  Velluto on 26/05/14.
-//  Copyright (c) 2014 Marco Velluto  Velluto. All rights reserved.
+//  Created by Marco Vellutoon 26/05/14.
+//  Copyright (c) 2014 Marco Velluto. All rights reserved.
 //
 
 #import "NSArray+Utility.h"

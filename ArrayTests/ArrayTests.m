@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Array.h"
 
 @interface ArrayTests : XCTestCase
 
@@ -26,9 +27,11 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testRandomIntArrayWithCapacity
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSArray *returnArray = [Array randomIntArrayWithCapacity:10];
+
+    NSAssert([returnArray count] == 10, @"%lu", (unsigned long)[returnArray count]);
 }
 
 @end

@@ -10,4 +10,5 @@
 
 @interface Array : NSObject
 
++ (NSArray *)randomIntArrayWithCapacity:(int)capacity;
 @end

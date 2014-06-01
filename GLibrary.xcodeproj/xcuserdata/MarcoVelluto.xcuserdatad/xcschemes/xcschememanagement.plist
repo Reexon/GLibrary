@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>DataStructure.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>GLibrary.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -58,6 +63,16 @@
 			<true/>
 		</dict>
 		<key>189206CD193B8EBD00C5811E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>189206E6193B902600C5811E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>189206F3193B902600C5811E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

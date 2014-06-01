@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2F685D3C-BBD2-4200-BD4C-C01CAFDC02D0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GLibrary</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>794D654A-D386-4575-A777-85A7FA16681E</key>
+		<string>https://github.com/Reexon/GLibrary.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GLibrary.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>794D654A-D386-4575-A777-85A7FA16681E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Reexon/GLibrary.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>794D654A-D386-4575-A777-85A7FA16681E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>794D654A-D386-4575-A777-85A7FA16681E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GLibrary</string>
+		</dict>
+	</array>
+</dict>
+</plist>

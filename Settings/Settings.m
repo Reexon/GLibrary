@@ -55,7 +55,9 @@
             // controllo se posso leggerlo dai NSUserDefault
             id currentObject = [defs objectForKey:key];
             
-            //se è nil vuol dire che non riesce a leggerlo
+            /*
+             se è nil vuol dire che non riesce a leggerlo (e che quindi potrebbe significare che questo è il primo avvio dell'app).
+             */
             if (currentObject == nil){
                 // non leggibile: imposta il valore dal Settings.Bundle
                 id objectToSet = [prefSpecification objectForKey:@"DefaultValue"];

@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>Date.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>GLibrary.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -73,6 +78,16 @@
 			<true/>
 		</dict>
 		<key>189206F3193B902600C5811E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18920712193B90AA00C5811E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1892071F193B90AA00C5811E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

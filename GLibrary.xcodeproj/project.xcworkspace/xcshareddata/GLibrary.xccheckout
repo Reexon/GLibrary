@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>2F685D3C-BBD2-4200-BD4C-C01CAFDC02D0</string>
+=======
+	<string>7A4012EB-FD50-4B01-8554-01D4B03387EA</string>
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectName</key>
 	<string>GLibrary</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>794D654A-D386-4575-A777-85A7FA16681E</key>
+=======
+		<key>AC08FA2F-1528-4BE2-8706-263769E914EF</key>
+>>>>>>> FETCH_HEAD
 		<string>https://github.com/Reexon/GLibrary.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>GLibrary.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>794D654A-D386-4575-A777-85A7FA16681E</key>
+=======
+		<key>AC08FA2F-1528-4BE2-8706-263769E914EF</key>
+>>>>>>> FETCH_HEAD
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +37,22 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>794D654A-D386-4575-A777-85A7FA16681E</string>
+=======
+	<string>AC08FA2F-1528-4BE2-8706-263769E914EF</string>
+>>>>>>> FETCH_HEAD
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>794D654A-D386-4575-A777-85A7FA16681E</string>
+=======
+			<string>AC08FA2F-1528-4BE2-8706-263769E914EF</string>
+>>>>>>> FETCH_HEAD
 			<key>IDESourceControlWCCName</key>
 			<string>GLibrary</string>
 		</dict>

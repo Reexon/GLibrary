@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 
 @implementation WebService{
-    UIAlertView *alert;
+    UIAlertView *loadingAlert;
 }
 
 - (id)initWithURL:(NSURL *)url andXML:(NSString *)xmlFile
@@ -22,13 +22,15 @@
         _urlEndpoint =  url;
         _xmlFileToSend = [[NSString alloc]initWithString: xmlFile];
         _showLoadingAlert = YES;
-        [self setupWaitingAlert:@"Waiting Server" withMessage:@"" andCancelButton:nil];
+        _timeoutInterval = 10;
         
+        [self setupAlert:loadingAlert withTitle:@"Waiting Server" withMessage:@"" andCancelButton:nil];
     }
     
     return self;
 }
-- (void)setupWaitingAlert:(NSString *)title withMessage:(NSString *)message andCancelButton:(NSString *)cancelButtonTitle{
+
+- (void)setupAlert:(UIAlertView *)alert withTitle:(NSString *)title withMessage:(NSString *)message andCancelButton:(NSString *)cancelButtonTitle{
     
     alert = [[UIAlertView alloc]initWithTitle:title message:message delegate:nil cancelButtonTitle:cancelButtonTitle otherButtonTitles:nil, nil];
     
@@ -40,7 +42,7 @@
     
     if(_showLoadingAlert){
         
-        [alert performSelectorOnMainThread:@selector(show) withObject:nil waitUntilDone:YES];
+        [loadingAlert performSelectorOnMainThread:@selector(show) withObject:nil waitUntilDone:YES];
         
         [NSThread detachNewThreadSelector:@selector(startRequest) toTarget:self withObject:nil];
         
@@ -63,7 +65,7 @@
     [reqURL addValue:@"text/xml" forHTTPHeaderField:@"Content-Type"];
     [reqURL addValue: msgLength forHTTPHeaderField:@"Content-Length"];
     [reqURL setHTTPMethod:@"POST"];
-    [reqURL setTimeoutInterval:10.0];
+    [reqURL setTimeoutInterval:_timeoutInterval];
     
     //trasformo il file xml da stringa a NSData
     [reqURL setHTTPBody: [_xmlFileToSend dataUsingEncoding:NSUTF8StringEncoding]];
@@ -74,7 +76,7 @@
     NSData *responseData = [[NSData alloc] initWithData:[NSURLConnection sendSynchronousRequest:reqURL returningResponse:&response error:&error]];
     
     //chiudo l'alert aperta prima di eseguire questo metodo
-    [alert dismissWithClickedButtonIndex:0 animated:YES];
+    [loadingAlert dismissWithClickedButtonIndex:0 animated:YES];
     
     //response data non è mai nil, nel caso peggiore, è vuoto
     if(responseData.length == 0){

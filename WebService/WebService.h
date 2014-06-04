@@ -23,12 +23,18 @@
 
 //proprietà che devono essere impostate dall'utente PRIMA di avviare la richiesta
 @property NSURL *urlEndpoint;
+
 //il file xml da inviare al webservice
 @property NSString *xmlFileToSend;
+
 //se true , verrà visualizzato alert durante l'invio e ricezione della risposta
 @property BOOL showLoadingAlert;
+
 //se true, in caso di errore, verrà visualizzato alert
 @property BOOL showErrorAlert;
+
+//tempo di timeout da aspettare (MAX) valore in secondi
+@property NSTimeInterval timeoutInterval;
 
 //delegate (obbligatorio per ricevere notifiche di successo/fallimento
 @property (nonatomic, assign) id delegate;

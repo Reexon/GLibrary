@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "WebService.h"
-@interface WebServiceTests : XCTestCase
+@interface WebServiceTests : XCTestCase <WebServiceDelegate>
 
 @end
 
@@ -31,7 +31,12 @@
     NSString *xml = @"<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:xsd=\"http://www.w3.org/1999/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/wsdl/soap/\" xmlns:xsi=\"http://www.w3.org/1999/XMLSchema-instance\" SOAP-ENV:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\"><SOAP-ENV:Body><mns:ProcessSRL xmlns:mns=\"http://www.SoapClient.com/xml/SQLDataSoap.xsd\"><SRLFile xsi:type=\"xsd:string\">/xml/web.sri</SRLFile><RequestName xsi:type=\"xsd:string\">Altavista</RequestName><key xsi:type=\"xsd:string\">SOAP</key></mns:ProcessSRL></SOAP-ENV:Body></SOAP-ENV:Envelope>";
     
     WebService *ws = [[WebService alloc]initWithURL:[NSURL URLWithString:@"http://soapclient.com/xml/SQLDataSoap.WSDL"] andXML:xml];
-    NSLog(@"%@",[ws startRequest]);
+    [ws setShowLoadingAlert:YES];
+    [ws setDelegate:self];
+    [ws start];
 }
 
+-(void)webServiceRequestSuccesfull:(NSData *)data{
+    NSLog(@"Dati Ricevuti con successo: %@",data);
+}
 @end

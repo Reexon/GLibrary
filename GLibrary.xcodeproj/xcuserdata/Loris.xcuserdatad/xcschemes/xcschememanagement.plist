@@ -16,6 +16,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>GUtility.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Settings.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -39,6 +44,16 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>ABB48D3819406A30007B8EAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ABB48D4519406A30007B8EAB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>ABC207F11939223900128F18</key>
 		<dict>
 			<key>primary</key>
@@ -55,6 +70,16 @@
 			<true/>
 		</dict>
 		<key>ABC2082C193922CF00128F18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ABF0E33C193FC9A200B88199</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ABF0E349193FC9A300B88199</key>
 		<dict>
 			<key>primary</key>
 			<true/>

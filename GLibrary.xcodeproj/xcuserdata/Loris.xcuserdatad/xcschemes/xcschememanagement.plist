@@ -7,11 +7,6 @@
 		<key>Connectivity.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>DateUtility.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
 		<key>GLibrary.xcscheme</key>
@@ -34,7 +29,7 @@
 		<key>WebService.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>

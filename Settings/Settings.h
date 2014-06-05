@@ -10,16 +10,22 @@
 
 @interface Settings : NSObject
 
+#pragma mark - Caricamento Settings Default
+
 + (void) registerDefaultsFromSettingsBundle;
 
-+ (void) loadDefaultSettings:(NSDictionary *)dict;
++ (void) loadDefaultSettingsFromDict:(NSDictionary *)dict;
+
+#pragma mark - Salvataggio Settings
 
 + (void) saveSettingString:(NSString *)value forKey:(NSString *)option;
 
 + (void) saveSettingBool:(bool)boolean forKey:(NSString *)option;
 
-+ (NSString *)getSettingString:(NSString *)option;
+#pragma mark - Lettura Settings
 
-+ (BOOL)getSettingBool:(NSString *)option;
++ (NSString *) getSettingString:(NSString *)option;
+
++ (BOOL) getSettingBool:(NSString *)option;
 
 @end

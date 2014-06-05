@@ -37,25 +37,25 @@ enum {
     return NO;
 }
 
-- (int) daysDifferenceToDate:(NSDate *)pDate{
-    return [self differenceBetweenDate:pDate type:DaysDifference];
+- (int) daysDifferenceToDate:(NSDate *)date{
+    return [self differenceBetweenDate:date type:DaysDifference];
 }
 
--(int) hoursDifferenceToDate:(NSDate *)pDate{
-    return [self differenceBetweenDate:pDate type:HoursDifference];
+-(int) hoursDifferenceToDate:(NSDate *)date{
+    return [self differenceBetweenDate:date type:HoursDifference];
 }
 
--(int) minutesDifferenceToDate:(NSDate *)pDate{
-    return [self differenceBetweenDate:pDate type:MinutesDifference];
+-(int) minutesDifferenceToDate:(NSDate *)date{
+    return [self differenceBetweenDate:date type:MinutesDifference];
 }
 
--(int) secondsDifferenceToDate:(NSDate *)pDate{
-    return [self differenceBetweenDate:pDate type:SecondsDifference];
+-(int) secondsDifferenceToDate:(NSDate *)date{
+    return [self differenceBetweenDate:date type:SecondsDifference];
 }
 
-- (int)differenceBetweenDate:(NSDate *)pDate type:(int)typeDiff{
+- (int)differenceBetweenDate:(NSDate *)date type:(int)typeDiff{
     
-    NSTimeInterval secondsBetween = [pDate timeIntervalSinceDate:self];
+    NSTimeInterval secondsBetween = [date timeIntervalSinceDate:self];
     
     int difference=0;
     

@@ -10,59 +10,58 @@
 
 @interface NSDate (Helper)
 
-/*
- TRUE 
- se startDate <= oggetto <= endDate
+/**
+ @abstract controlla se l'oggetto che evoca il metodo è compreso tra le date passate come parametro
  
- FALSE
- oggetto < startDate
- oggetto > endDate
+ @return
+ TRUE - se startDate <= oggetto <= endDate
+ 
+ FALSE - (oggetto < startDate) o (oggetto > endDate)
  */
 - (BOOL) isBetweenDate:(NSDate *)startDate andDate:(NSDate *)endDate;
 
-/*
+/**
+ @abstract controlla se la data dell'oggetto che evoca il metodo è + recente
+ della data passata come parametro
+ 
+ @return
  TRUE
-    se la data dell'attuale oggetto è + recente della data come parametro
+    attuale oggetto è + recente della data come parametro
  FALSE
-    se la data dell'attuale oggetto è + vecchia o uguale alla data come parametro
+    attuale oggetto è + vecchio o uguale alla data come parametro
  */
 - (BOOL) isMoreActualThen:(NSDate *)date;
-/*
- restituisce i giorni di differenza tra l'oggetto NSDate che richiama il metodo e quello passato per parametro
- */
-- (int) daysDifferenceToDate:(NSDate *)pDate;
 
-/*
- restituisce le ore di differenza tra l'oggetto NSDate che richiama il metodo e quello passato per parametro
- */
-- (int) hoursDifferenceToDate:(NSDate *)pDate;
 
-/*
- restituisce i minuti di differenza tra l'oggetto NSDate che richiama il metodo e quello passato per parametro
+/**
+ @abstract restituisce le differenze tra l'oggetto NSDate che richiama il metodo, e quello passato per parametro
  */
-- (int) minutesDifferenceToDate:(NSDate *)pDate;
+#pragma mark - Differenze tra Date
+- (int) daysDifferenceToDate:(NSDate *)date;
+- (int) hoursDifferenceToDate:(NSDate *)date;
+- (int) minutesDifferenceToDate:(NSDate *)date;
+- (int) secondsDifferenceToDate:(NSDate *)date;
 
-/*
- restituisce i secondi di differenza tra l'oggetto NSDate che richiama il metodo e quello passato per parametro
- */
-- (int) secondsDifferenceToDate:(NSDate *)pDate;
-
-/*
- aggiunge all'oggetto attuale la data
- NOTA: non potendo modificare l'oggetto attuale, viene restituita la data risultante dall'operazione
+/**
+ @abstract aggiunge all'oggetto attuale la data
+ 
+ @note non potendo modificare l'oggetto attuale, viene restituita la data risultante dall'operazione
  se si vuole sottrarre un mese, giorno o anno, basta passare come parametro un negativo (-20, -1 ,-50)
  */
+#pragma mark - Operazioni con le date
 - (NSDate *)addDay:(int)day;
 - (NSDate *)addMonth:(int)month;
 - (NSDate *)addYear:(int)year;
 
-/*
- preleva i dati dell'oggetto attuale
+/**
+ @abstract preleva i dati dell'oggetto attuale
+ 
+ @return restituisce l'informazione richiesta dell'oggetto che evoca il metodo
  */
+#pragma mark - Informazioni Oggetto NSDate Attuale
 - (NSUInteger)year;
 - (NSUInteger)month;
 - (NSUInteger)day ;
-
 - (NSUInteger)hour ;
 - (NSUInteger)minute;
 - (NSUInteger)weekday;

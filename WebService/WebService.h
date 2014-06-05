@@ -21,7 +21,7 @@
 
 @interface WebService : NSObject
 
-//proprietà che devono essere impostate dall'utente PRIMA di avviare la richiesta
+//URL al quale verrà inviato il file XML (endpoint del WS)
 @property NSURL *urlEndpoint;
 
 //il file xml da inviare al webservice

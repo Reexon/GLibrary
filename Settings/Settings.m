@@ -81,7 +81,7 @@
  
  */
 
-+ (void) loadDefaultSettings:(NSDictionary *)dict{
++ (void) loadDefaultSettingsFromDict:(NSDictionary *)dict{
     
     NSDictionary *appDefaultsOption = [NSDictionary dictionaryWithObjects:[dict allValues] forKeys:[dict allKeys]];
     

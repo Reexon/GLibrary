@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A7B4271940ECED00B698D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
+		18A7B42C1940ECED00B698D4 /* DateUtility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18A7B42B1940ECED00B698D4 /* DateUtility.h */; };
+		18A7B42E1940ECED00B698D4 /* DateUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7B42D1940ECED00B698D4 /* DateUtility.m */; };
+		18A7B4341940ECED00B698D4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC208031939223900128F18 /* XCTest.framework */; };
+		18A7B4351940ECED00B698D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
+		18A7B4361940ECED00B698D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC208061939223900128F18 /* UIKit.framework */; };
+		18A7B4391940ECED00B698D4 /* libDateUtility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A7B4261940ECED00B698D4 /* libDateUtility.a */; };
+		18A7B43F1940ECED00B698D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A7B43D1940ECED00B698D4 /* InfoPlist.strings */; };
+		18A7B4411940ECED00B698D4 /* DateUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7B4401940ECED00B698D4 /* DateUtilityTests.m */; };
 		AB362A0F1939B6A400A05E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC207F51939223900128F18 /* Foundation.framework */; };
 		AB362A141939B6A500A05E3A /* Connectivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB362A131939B6A500A05E3A /* Connectivity.h */; };
 		AB362A161939B6A500A05E3A /* Connectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = AB362A151939B6A500A05E3A /* Connectivity.m */; };
@@ -51,6 +60,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		18A7B4371940ECED00B698D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC207EA1939223900128F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A7B4251940ECED00B698D4;
+			remoteInfo = DateUtility;
+		};
 		AB362A1F1939B6A500A05E3A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABC207EA1939223900128F18 /* Project object */;
@@ -82,6 +98,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		18A7B4241940ECED00B698D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				18A7B42C1940ECED00B698D4 /* DateUtility.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB362A0C1939B6A400A05E3A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +154,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18A7B4261940ECED00B698D4 /* libDateUtility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDateUtility.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A7B42A1940ECED00B698D4 /* DateUtility-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateUtility-Prefix.pch"; sourceTree = "<group>"; };
+		18A7B42B1940ECED00B698D4 /* DateUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateUtility.h; sourceTree = "<group>"; };
+		18A7B42D1940ECED00B698D4 /* DateUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateUtility.m; sourceTree = "<group>"; };
+		18A7B4331940ECED00B698D4 /* DateUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A7B43C1940ECED00B698D4 /* DateUtilityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DateUtilityTests-Info.plist"; sourceTree = "<group>"; };
+		18A7B43E1940ECED00B698D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18A7B4401940ECED00B698D4 /* DateUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateUtilityTests.m; sourceTree = "<group>"; };
 		AB362A0E1939B6A400A05E3A /* libConnectivity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libConnectivity.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB362A121939B6A400A05E3A /* Connectivity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Connectivity-Prefix.pch"; sourceTree = "<group>"; };
 		AB362A131939B6A500A05E3A /* Connectivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Connectivity.h; sourceTree = "<group>"; };
@@ -171,6 +205,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		18A7B4231940ECED00B698D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7B4271940ECED00B698D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7B4301940ECED00B698D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7B4391940ECED00B698D4 /* libDateUtility.a in Frameworks */,
+				18A7B4341940ECED00B698D4 /* XCTest.framework in Frameworks */,
+				18A7B4361940ECED00B698D4 /* UIKit.framework in Frameworks */,
+				18A7B4351940ECED00B698D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB362A0B1939B6A400A05E3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +304,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A7B4211940EC8F00B698D4 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				ABFB10991940C72F002FC396 /* Categories */,
+				18A7B4281940ECED00B698D4 /* DateUtility */,
+				18A7B43A1940ECED00B698D4 /* DateUtilityTests */,
+			);
+			name = Date;
+			sourceTree = "<group>";
+		};
+		18A7B4281940ECED00B698D4 /* DateUtility */ = {
+			isa = PBXGroup;
+			children = (
+				18A7B42B1940ECED00B698D4 /* DateUtility.h */,
+				18A7B42D1940ECED00B698D4 /* DateUtility.m */,
+				18A7B4291940ECED00B698D4 /* Supporting Files */,
+			);
+			path = DateUtility;
+			sourceTree = "<group>";
+		};
+		18A7B4291940ECED00B698D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A7B42A1940ECED00B698D4 /* DateUtility-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A7B43A1940ECED00B698D4 /* DateUtilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A7B4401940ECED00B698D4 /* DateUtilityTests.m */,
+				18A7B43B1940ECED00B698D4 /* Supporting Files */,
+			);
+			path = DateUtilityTests;
+			sourceTree = "<group>";
+		};
+		18A7B43B1940ECED00B698D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A7B43C1940ECED00B698D4 /* DateUtilityTests-Info.plist */,
+				18A7B43D1940ECED00B698D4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		AB362A101939B6A400A05E3A /* Connectivity */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,7 +392,6 @@
 		ABB48D3B19406A30007B8EAB /* GUtility */ = {
 			isa = PBXGroup;
 			children = (
-				ABFB10991940C72F002FC396 /* NSDate */,
 				ABB48D3E19406A30007B8EAB /* GUtility.h */,
 				ABB48D4019406A30007B8EAB /* GUtility.m */,
 				ABB48D4D19406A30007B8EAB /* GUtilityTests */,
@@ -334,6 +432,7 @@
 				ABC20822193922CF00128F18 /* Settings */,
 				AB362A101939B6A400A05E3A /* Connectivity */,
 				ABF2B0A3193B9F2600C9B87A /* WebService */,
+				18A7B4211940EC8F00B698D4 /* Date */,
 				ABB48D3B19406A30007B8EAB /* GUtility */,
 				ABC207F41939223900128F18 /* Frameworks */,
 				ABC207F31939223900128F18 /* Products */,
@@ -351,6 +450,8 @@
 				ABF2B0AE193B9F2700C9B87A /* WebServiceTests.xctest */,
 				ABB48D3919406A30007B8EAB /* libGUtility.a */,
 				ABB48D4619406A30007B8EAB /* GUtilityTests.xctest */,
+				18A7B4261940ECED00B698D4 /* libDateUtility.a */,
+				18A7B4331940ECED00B698D4 /* DateUtilityTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -440,19 +541,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		ABFB10991940C72F002FC396 /* NSDate */ = {
+		ABFB10991940C72F002FC396 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
 				ABB48D5B19406A51007B8EAB /* NSDate+Helper.h */,
 				ABB48D5C19406A51007B8EAB /* NSDate+Helper.m */,
 			);
-			name = NSDate;
-			path = ..;
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		18A7B4251940ECED00B698D4 /* DateUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A7B4421940ECED00B698D4 /* Build configuration list for PBXNativeTarget "DateUtility" */;
+			buildPhases = (
+				18A7B4221940ECED00B698D4 /* Sources */,
+				18A7B4231940ECED00B698D4 /* Frameworks */,
+				18A7B4241940ECED00B698D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateUtility;
+			productName = DateUtility;
+			productReference = 18A7B4261940ECED00B698D4 /* libDateUtility.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		18A7B4321940ECED00B698D4 /* DateUtilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A7B4451940ECED00B698D4 /* Build configuration list for PBXNativeTarget "DateUtilityTests" */;
+			buildPhases = (
+				18A7B42F1940ECED00B698D4 /* Sources */,
+				18A7B4301940ECED00B698D4 /* Frameworks */,
+				18A7B4311940ECED00B698D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A7B4381940ECED00B698D4 /* PBXTargetDependency */,
+			);
+			name = DateUtilityTests;
+			productName = DateUtilityTests;
+			productReference = 18A7B4331940ECED00B698D4 /* DateUtilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AB362A0D1939B6A400A05E3A /* Connectivity */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB362A2A1939B6A500A05E3A /* Build configuration list for PBXNativeTarget "Connectivity" */;
@@ -621,11 +756,21 @@
 				ABF2B0AD193B9F2700C9B87A /* WebServiceTests */,
 				ABB48D3819406A30007B8EAB /* GUtility */,
 				ABB48D4519406A30007B8EAB /* GUtilityTests */,
+				18A7B4251940ECED00B698D4 /* DateUtility */,
+				18A7B4321940ECED00B698D4 /* DateUtilityTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		18A7B4311940ECED00B698D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7B43F1940ECED00B698D4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB362A191939B6A500A05E3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -661,6 +806,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		18A7B4221940ECED00B698D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7B42E1940ECED00B698D4 /* DateUtility.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7B42F1940ECED00B698D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7B4411940ECED00B698D4 /* DateUtilityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB362A0A1939B6A400A05E3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -730,6 +891,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		18A7B4381940ECED00B698D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A7B4251940ECED00B698D4 /* DateUtility */;
+			targetProxy = 18A7B4371940ECED00B698D4 /* PBXContainerItemProxy */;
+		};
 		AB362A201939B6A500A05E3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AB362A0D1939B6A400A05E3A /* Connectivity */;
@@ -753,6 +919,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		18A7B43D1940ECED00B698D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A7B43E1940ECED00B698D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		AB362A251939B6A500A05E3A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -788,6 +962,70 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		18A7B4431940ECED00B698D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DateUtility.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateUtility/DateUtility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		18A7B4441940ECED00B698D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DateUtility.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateUtility/DateUtility-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		18A7B4461940ECED00B698D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateUtility/DateUtility-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DateUtilityTests/DateUtilityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18A7B4471940ECED00B698D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateUtility/DateUtility-Prefix.pch";
+				INFOPLIST_FILE = "DateUtilityTests/DateUtilityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		AB362A2B1939B6A500A05E3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1130,6 +1368,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		18A7B4421940ECED00B698D4 /* Build configuration list for PBXNativeTarget "DateUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A7B4431940ECED00B698D4 /* Debug */,
+				18A7B4441940ECED00B698D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A7B4451940ECED00B698D4 /* Build configuration list for PBXNativeTarget "DateUtilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A7B4461940ECED00B698D4 /* Debug */,
+				18A7B4471940ECED00B698D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		AB362A2A1939B6A500A05E3A /* Build configuration list for PBXNativeTarget "Connectivity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

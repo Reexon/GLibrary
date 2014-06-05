@@ -338,7 +338,8 @@
 				18A7B4401940ECED00B698D4 /* DateUtilityTests.m */,
 				18A7B43B1940ECED00B698D4 /* Supporting Files */,
 			);
-			path = DateUtilityTests;
+			name = DateUtilityTests;
+			path = DateUtility/DateUtilityTests;
 			sourceTree = "<group>";
 		};
 		18A7B43B1940ECED00B698D4 /* Supporting Files */ = {
@@ -377,7 +378,8 @@
 				AB362A281939B6A500A05E3A /* ConnectivityTests.m */,
 				AB362A231939B6A500A05E3A /* Supporting Files */,
 			);
-			path = ConnectivityTests;
+			name = ConnectivityTests;
+			path = Connectivity/ConnectivityTests;
 			sourceTree = SOURCE_ROOT;
 		};
 		AB362A231939B6A500A05E3A /* Supporting Files */ = {
@@ -414,7 +416,8 @@
 				ABB48D5319406A31007B8EAB /* GUtilityTests.m */,
 				ABB48D4E19406A30007B8EAB /* Supporting Files */,
 			);
-			path = GUtilityTests;
+			name = GUtilityTests;
+			path = GUtility/GUtilityTests;
 			sourceTree = SOURCE_ROOT;
 		};
 		ABB48D4E19406A30007B8EAB /* Supporting Files */ = {
@@ -492,7 +495,8 @@
 				ABC2083A193922CF00128F18 /* SettingsTests.m */,
 				ABC20835193922CF00128F18 /* Supporting Files */,
 			);
-			path = SettingsTests;
+			name = SettingsTests;
+			path = Settings/SettingsTests;
 			sourceTree = SOURCE_ROOT;
 		};
 		ABC20835193922CF00128F18 /* Supporting Files */ = {
@@ -529,7 +533,8 @@
 				ABF2B0BB193B9F2900C9B87A /* WebServiceTests.m */,
 				ABF2B0B6193B9F2800C9B87A /* Supporting Files */,
 			);
-			path = WebServiceTests;
+			name = WebServiceTests;
+			path = WebService/WebServiceTests;
 			sourceTree = SOURCE_ROOT;
 		};
 		ABF2B0B6193B9F2800C9B87A /* Supporting Files */ = {
@@ -1375,6 +1380,7 @@
 				18A7B4441940ECED00B698D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A7B4451940ECED00B698D4 /* Build configuration list for PBXNativeTarget "DateUtilityTests" */ = {
 			isa = XCConfigurationList;
@@ -1383,6 +1389,7 @@
 				18A7B4471940ECED00B698D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB362A2A1939B6A500A05E3A /* Build configuration list for PBXNativeTarget "Connectivity" */ = {
 			isa = XCConfigurationList;

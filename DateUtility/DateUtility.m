@@ -12,10 +12,7 @@
 
 
 + (NSMutableArray *)datesToYearFromCurrentDate:(NSDate *)date days:(int)days {
-    
-    NSArray *array2 = [[NSArray alloc] initWithObjects:@"2", @"3", nil];
-    [array2 shuffle];
-    return [CustomDate datesToYearFromCurrentDate:date days:days withYears:1];
+    return [DateUtility datesToYearFromCurrentDate:date days:days withYears:1];
     
 }
 
@@ -29,12 +26,12 @@
     }
     
     //Trovo il mese corrente
-    int numberMonth = (int)[CustomDate monthFromDate:date];
+    int numberMonth = (int)[DateUtility monthFromDate:date];
     NSMutableArray *dates = [[NSMutableArray alloc] init];
     int monthes = (12 * numberYear) - numberMonth + 2;
     
     for (int i=0; i<monthes; i++) {
-        [dates addObject:[CustomDate dateCicloWithPreviusData:date andDaysToAdd:days andMonth:i]];
+        [dates addObject:[DateUtility dateCicloWithPreviusData:date andDaysToAdd:days andMonth:i]];
     }
     return dates;
 }
@@ -52,14 +49,14 @@
 
 + (NSInteger)dayFromDate:(NSDate *)date {
     
-    NSDateComponents *componets = [CustomDate componentsFromDate:date];
+    NSDateComponents *componets = [DateUtility componentsFromDate:date];
     NSInteger day = [componets day];
     return day;
 }
 
 + (NSInteger)monthFromDate:(NSDate *)date {
     
-    NSDateComponents *componets = [CustomDate componentsFromDate:date];
+    NSDateComponents *componets = [DateUtility componentsFromDate:date];
     NSInteger month = [componets month];
     return month;
 }
@@ -67,7 +64,7 @@
 
 + (NSInteger)yearFromDate:(NSDate *)date {
     
-    NSDateComponents *componets = [CustomDate componentsFromDate:date];
+    NSDateComponents *componets = [DateUtility componentsFromDate:date];
     NSInteger year = [componets year];
     return year;
 }

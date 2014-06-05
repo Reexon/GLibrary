@@ -7,13 +7,15 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <DateUtility.h>
+#import "DateUtility.h"
 
 @interface DateUtilityTests : XCTestCase
 
 @end
 
 @implementation DateUtilityTests
+
+NSDate *date;
 
 - (void)setUp
 {
